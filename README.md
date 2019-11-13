@@ -1,4 +1,4 @@
-# Project 1 Generative Text
+# Generative Text
 
 Yunchieh Chang, cyunchie@ucsd.edu
 
@@ -30,7 +30,3 @@ In this project, we demonstrate text generation by using a character-based RNN. 
 - (start_string = "The") since most of the description start with "The ... " or "There are ... ".
 - After investigating the data file, we set (seq_length) to be 200 for a more reasonable result.
 - In the text file of our training data, each animal is described in a single paragraph. Therefore, our generated text is designed to print a paragraph once and the number of the generated descriptions is adjustable.
-
-## Reference
-
-Project requirements: [doc](https://docs.google.com/document/d/13ueceIyuUc4ATD7B-SFZK641MycFZ57eZ9n1lQ3Y1CM/edit?usp=sharing)
